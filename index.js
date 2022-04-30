@@ -9,5 +9,6 @@ const server = createServer({
     typeDefs,
     resolvers,
   },
+  port: 8080,
 });
 server.start(() => console.log("start"));
